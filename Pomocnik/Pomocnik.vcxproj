@@ -18,6 +18,23 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Desktop\Projekt Pomocnik\main.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\Projekt Pomocnik\pl.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\Projekt Pomocnik\plik2.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\Projekt Pomocnik\zalogowany.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\Desktop\Projekt Pomocnik\ikonap_7GP_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\..\..\Desktop\Projekt Pomocnik\logo.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Desktop\Projekt Pomocnik\logo.h" />
+    <ClInclude Include="..\..\..\..\Desktop\Projekt Pomocnik\plik2.hpp" />
+    <ClInclude Include="..\..\..\..\Desktop\Projekt Pomocnik\zalogowany.hpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
