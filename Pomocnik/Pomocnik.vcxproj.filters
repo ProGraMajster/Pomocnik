@@ -15,37 +15,37 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Desktop\Projekt Pomocnik\main.cpp">
-      <Filter>Pliki źródłowe</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\Desktop\Projekt Pomocnik\pl.cpp">
-      <Filter>Pliki źródłowe</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\Desktop\Projekt Pomocnik\plik2.cpp">
-      <Filter>Pliki źródłowe</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\Desktop\Projekt Pomocnik\zalogowany.cpp">
-      <Filter>Pliki źródłowe</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="..\..\..\..\Desktop\Projekt Pomocnik\ikonap_7GP_icon.ico">
+    <Image Include="ikonap_7GP_icon.ico">
       <Filter>Pliki zasobów</Filter>
     </Image>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="..\..\..\..\Desktop\Projekt Pomocnik\logo.rc">
+    <ResourceCompile Include="logo.rc">
       <Filter>Pliki zasobów</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\Desktop\Projekt Pomocnik\logo.h">
+    <ClCompile Include="main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="pl.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="plik2.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="zalogowany.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="logo.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Desktop\Projekt Pomocnik\plik2.hpp">
+    <ClInclude Include="plik2.hpp">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Desktop\Projekt Pomocnik\zalogowany.hpp">
+    <ClInclude Include="zalogowany.hpp">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
   </ItemGroup>

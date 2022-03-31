@@ -19,21 +19,21 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Desktop\Projekt Pomocnik\main.cpp" />
-    <ClCompile Include="..\..\..\..\Desktop\Projekt Pomocnik\pl.cpp" />
-    <ClCompile Include="..\..\..\..\Desktop\Projekt Pomocnik\plik2.cpp" />
-    <ClCompile Include="..\..\..\..\Desktop\Projekt Pomocnik\zalogowany.cpp" />
+    <Image Include="ikonap_7GP_icon.ico" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\..\..\..\Desktop\Projekt Pomocnik\ikonap_7GP_icon.ico" />
+    <ResourceCompile Include="logo.rc" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="..\..\..\..\Desktop\Projekt Pomocnik\logo.rc" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="pl.cpp" />
+    <ClCompile Include="plik2.cpp" />
+    <ClCompile Include="zalogowany.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\Desktop\Projekt Pomocnik\logo.h" />
-    <ClInclude Include="..\..\..\..\Desktop\Projekt Pomocnik\plik2.hpp" />
-    <ClInclude Include="..\..\..\..\Desktop\Projekt Pomocnik\zalogowany.hpp" />
+    <ClInclude Include="logo.h" />
+    <ClInclude Include="plik2.hpp" />
+    <ClInclude Include="zalogowany.hpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

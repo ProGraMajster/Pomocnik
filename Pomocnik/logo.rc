@@ -1,0 +1,32 @@
+#include "logo.h"
+#include <windows.h>
+
+IDB_LOGO ICON "ikonap_7GP_icon.ico"
+
+
+
+1 VERSIONINFO
+FILEVERSION 1, 1 // wersja pliku
+PRODUCTVERSION 1, 1, 0, 0 // wersja produktu
+FILETYPE VFT_APP
+{
+    BLOCK "StringFileInfo"
+    {
+        BLOCK "041504E4"
+        {
+            VALUE "CompanyName", "" // nazwa firmy
+            VALUE "FileVersion", "1.1" // wersja pliku
+            VALUE "FileDescription", "Program Pomocnik" // opis programu
+            VALUE "InternalName", "Pomocnik" // wewnêtrzna nazwa pliku
+            VALUE "LegalCopyright", "(C) Copyright by ProGra Majster(Kiko)" // prawa autorskie
+            VALUE "LegalTrademarks", "" // prawne znaki towarowe
+            VALUE "OriginalFilename", "Pomocnik.exe" // oryginalna nazwa pliku
+            VALUE "ProductName", "Pomocnik" // nazwa pliku
+            VALUE "ProductVersion", "1.1" // wersja produktu
+        }
+    }
+    BLOCK "VarFileInfo"
+    {
+        VALUE "Translation", 0x0415, 1252
+    }
+}
